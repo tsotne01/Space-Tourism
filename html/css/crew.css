@@ -1,3 +1,80 @@
 :root {
   --home-bg-image: url(../../assets/crew/background-crew-desktop.jpg);
 }
+
+header {
+  margin-bottom: 48px;
+}
+
+.header-txt {
+  margin-bottom: 20px;
+  display: flex;
+  font-family: "Barlow Condensed", serif;
+}
+
+.header-txt h1 {
+  font-size: 28px;
+  font-weight: normal;
+}
+
+.header-txt span {
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 4.72px;
+  color: #979797;
+  margin-right: 24px;
+}
+main > div:first-child {
+  margin-top: 48px;
+}
+main > div:last-child {
+  display: flex;
+  max-width: 1110px;
+  max-height: 792px;
+  align-items: center;
+  gap: 32px;
+}
+
+main div:last-child {
+  margin-top: 24px;
+}
+
+.crew-person-description {
+  & h2,
+  h1 {
+    font-family: "Bellefair", serif;
+    font-weight: normal;
+    text-transform: uppercase;
+  }
+  & h2 {
+    font-size: 32px;
+    margin-bottom: 16px;
+    color: #979797;
+  }
+
+  & h1 {
+    font-size: 56px;
+    margin-bottom: 24px;
+  }
+
+  & p {
+    font-family: "Barlow", serif;
+    line-height: 1.8;
+    color: #d0d6f9;
+    margin-bottom: 197px;
+  }
+}
+
+.crew-person-description > div:last-child img {
+  margin: 20px 0.14px;
+}
+
+.points > button {
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  border: none;
+  background-color: white;
+  margin-right: 40px;
+  margin-top: 40px;
+}

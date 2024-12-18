@@ -53,11 +53,12 @@ header > span:last-of-type {
   position: absolute;
   height: var(--nav-height);
   width: 736px;
-  filter: blur(3px);
-  -webkit-filter: blur(3px);
-  background-color: rgba(255, 255, 255, 0.199);
+  backdrop-filter: blur(20px);
+  -webkit-filter: blur(2px);
+  background-color: rgba(255, 255, 255, 0.055);
   box-shadow: 0 0 0 1px #282b37;
-  opacity: 0.5;
+
+  /* opacity: 0.5; */
   top: 40px;
   right: 0;
   z-index: -1;

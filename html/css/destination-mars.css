@@ -1,0 +1,7 @@
+header nav ul li:nth-child(2) {
+  border-bottom: 1px solid white;
+}
+
+.plants-section nav ul li:nth-child(2) {
+  border-bottom: 2px solid white;
+}

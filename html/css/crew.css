@@ -69,12 +69,13 @@ main div:last-child {
   margin: 20px 0.14px;
 }
 
-.points > button {
+.points > a {
+  display: inline-flex;
   border-radius: 50%;
   width: 15px;
   height: 15px;
   border: none;
-  background-color: white;
+  background-color: #979797;
   margin-right: 40px;
   margin-top: 40px;
 }
